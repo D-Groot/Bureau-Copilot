@@ -1,4 +1,4 @@
-# Bureau-Copilot
+# InformedWriting : The Bureau Copilot
 # Bureaucracy Copilot
 
 **An autonomous agent for risky government and institutional forms. It does not just draft answers: it identifies dangerous fields, resolves what it safely can from applicant context, and clearly flags what still needs confirmation.**
