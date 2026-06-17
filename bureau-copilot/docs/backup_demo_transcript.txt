@@ -1,0 +1,98 @@
+# Backup Demo Transcript
+(Use this ONLY if live demo fails due to wifi/API issues during judging.
+ Show this on screen and narrate it as "here's a run we captured earlier".)
+
+============================================================
+STEP 1 + 2 — AGENT PERCEIVES THE FORM AND ASSESSES REJECTION RISK
+============================================================
+
+Fields found: Full Name, Date of Birth, Gender, Aadhaar Number, Mobile
+Number, Email ID, Category, Sub-caste/Caste Certificate Number, Annual
+Family Income, Domicile State, First-generation learner, Physically
+Challenged, Current Course/Branch, Year of Study, Institution Name & AICTE
+Code, Last Qualifying Exam Percentage/CGPA, Other Scholarship Status, Bank
+Account Number, IFSC Code, Aadhaar-Bank Seeding Status
+
+Risk assessment:
+  [RED   ] Category                  — Wrong category selection is one of
+                                        the most common silent-rejection
+                                        causes; must exactly match your
+                                        certificate, not self-identification.
+  [RED   ] Annual Family Income      — Must match the figure on your
+                                        official Income Certificate exactly;
+                                        mismatches trigger automatic
+                                        disqualification during verification.
+  [YELLOW] Sub-caste/Caste Cert. No. — Format varies by state; easy to enter
+                                        an expired or wrongly-formatted
+                                        certificate number.
+  [YELLOW] Domicile State            — Must match your permanent address
+                                        proof, not your current college
+                                        state — commonly confused.
+  [YELLOW] Aadhaar-Bank Seeding      — Many applicants don't know if their
+                                        Aadhaar is actually seeded; wrong
+                                        answer delays disbursement for months.
+  [GREEN ] Full Name, DOB, Gender, Mobile, Email, Course, Year of Study,
+           CGPA, Bank Account, IFSC — straightforward, low ambiguity.
+
+============================================================
+STEP 3 — AGENT DECIDES WHAT IT ACTUALLY NEEDS TO ASK
+============================================================
+
+Of 20 fields, the agent only needs to ask about 5 risky ones:
+
+  ● Category
+    Does your official certificate say General, OBC, SC, ST, or EWS?
+    > OBC
+
+  ● Annual Family Income
+    What exact figure is written on your latest official Income
+    Certificate (not an estimate)?
+    > 2.4 lakh
+
+  ● Sub-caste/Caste Certificate Number
+    Do you have a valid, non-expired caste certificate number handy?
+    > Yes, issued last year
+
+  ● Domicile State
+    Which state is on your permanent address proof (not your college
+    state, if different)?
+    > Telangana
+
+  ● Aadhaar-Bank Seeding Status
+    Have you confirmed with your bank that your Aadhaar is linked
+    (seeded) to this account?
+    > Not sure
+
+============================================================
+STEP 4 — AGENT FILLS THE DRAFT + EXPLAINS THE RISK (EN + TE)
+============================================================
+
+--- FILLED DRAFT ---
+Category: OBC (confirm exact spelling/code matches your certificate)
+Annual Family Income: ₹2,40,000 (must exactly match Income Certificate)
+Sub-caste/Caste Certificate Number: confirm number is current, attach copy
+Domicile State: Telangana
+Aadhaar-Bank Seeding Status: Recommend confirming with your bank BEFORE
+  submitting — call your bank's toll-free number or check via NPCI portal
+  to avoid disbursement delays.
+[...remaining green fields filled with standard guidance...]
+
+--- WHY THIS MATTERS (English) ---
+Your Aadhaar-Bank seeding status is currently unconfirmed, and this is one
+of the most common reasons scholarship money gets approved but never
+reaches students — the disbursement silently fails and no one tells you
+why. Confirm this with your bank before submitting. Also double check your
+income certificate figure matches exactly; even a small mismatch with the
+official document can flag your application for rejection during the
+verification stage, often without clear notification.
+
+--- ఎందుకు ఇది ముఖ్యం (Telugu) ---
+మీ ఆధార్-బ్యాంక్ సీడింగ్ స్థితి ఇంకా నిర్ధారించబడలేదు, మరియు ఇది
+స్కాలర్‌షిప్ ఆమోదించబడినా డబ్బు చేరకపోవడానికి అత్యంత సాధారణ కారణాలలో ఒకటి
+— పంపిణీ నిశ్శబ్దంగా విఫలమవుతుంది మరియు కారణం ఎవరూ చెప్పరు. దీన్ని
+సమర్పించే ముందు మీ బ్యాంకుతో నిర్ధారించుకోండి. అలాగే మీ ఆదాయ ధృవీకరణ
+పత్రంలోని సంఖ్య సరిపోతుందో ఖచ్చితంగా చూసుకోండి.
+
+============================================================
+DONE — this is the loop: PERCEIVE -> ASSESS -> DECIDE -> ACT
+============================================================
